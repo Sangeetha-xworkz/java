@@ -1,0 +1,41 @@
+1)Polymorphism:When an object behaves differntlly at given instance of time is called Polymorphism.
+if we take a real time example a person is son for his parent,husband for his wife and father for is children in differnt time he behavies differntly.
+
+to achieve Polymorphism inheritance must be present.
+There are 2 types of Polymorphism
+1)Compile time Polymorphism:Decision of invoking a method decides at compile time is called compile time Polymorphism.
+we can achieve Compile time polymorphism when there is a method overloading happens.
+2)Run time Polymorphism:Decision of invoking a method decides at run time is called run time Polymorphism. 
+we can achieve run time polymorphism when method overriding is present.
+
+3)Inheritance:The process of accquering the properties from one class to another class or from base class to derived class or parent class to child class.
+we can achieve inheritance by using a keyword extends
+*types of Inheritance
+Single level inheritance:single parent and single child
+hybrid inheritance:single parent two child
+hirarchical inheritance:single parent multiple childs
+mutiple inheritance:is not possible because child can inherit parent properties but parent never inherit the proprties of child.
+
+Inheritance is also calles as is a relationship ,Savings Account is a child of Bank.
+eg:like we have a bank which is a parent class and savings account and current account are the child of bank
+where they inherit properties from there parent class.
+
+
+4)Encapsulation:The process grouping the different types of data into a single block or a unit.
+it can be achieved by using a keyword private.
+encapsulation fallows 4 rules
+1)public class must be present
+2)private keyword
+3)getter and setter methods must be public we need to access the data through this methods
+4)main method to execute
+the main purpose of encapsulation is to provide security for the data.
+
+3)Constructor Chaining
+Constructor chaining will present when we have has a relationship.
+has a relationship is nothing but one class is dependent on other class.
+  public City()//has it information
+  public Distict(City)
+  public Country(Distict)
+  public State(Country)
+  public Address(State)
+  patientAddress
